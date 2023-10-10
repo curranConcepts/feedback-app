@@ -9,32 +9,33 @@
   </a>
 </p>
 
-> A feedback application demonstrating my understanding and knowledge of PHP and MYSQL. 
+> A feedback application demonstrating my understanding and knowledge of PHP and MYSQL. Built in a docker container and hosted on fly.io.
 
-### ✨ Demo 
+### ✨ Demo
+
  <p align="center">  
      <img src="https://imageupload.io/ib/wYJ1wr83YfFqvDN_1697225213.png" width="50%" alt="Imitari"/>
  </p>
 
 ## 🚀 Usage
 
-The application is free to use. just navigate to # and sign up! 
+The application is free to use. just navigate to [...] and sign up!
 
 ## Author
 
 👤 **Austin Curran**
 
-* Website: https://austincurran.com/
-* Twitter: [@codingCurran](https://twitter.com/codingCurran)
-* Github: [@curranConcepts](https://github.com/curranConcepts)
-* LinkedIn: [@codingCurran](https://linkedin.com/in/codingCurran)
+-   Website: https://austincurran.com/
+-   Twitter: [@codingCurran](https://twitter.com/codingCurran)
+-   Github: [@curranConcepts](https://github.com/curranConcepts)
+-   LinkedIn: [@codingCurran](https://linkedin.com/in/codingCurran)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/curranConcepts/feedback-app/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/curranConcepts/feedback-app/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
