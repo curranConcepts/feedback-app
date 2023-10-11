@@ -6,7 +6,7 @@
 
   //Form submit
   if(isset($_POST['submit'])) {
-    
+
     //Validate name
     if(empty($_POST['name'])) {
       $nameErr = 'Name is required';
@@ -43,7 +43,7 @@
   }
 ?>
 
-    <img src="/feedback/img/logo.png" class="w-25 mb-3" alt="">
+    <img src="/feedback/img/logo.png" class="w-50 mb-3" alt="">
     <h2>Feedback</h2>
     <p class="lead text-center">Leave feedback for Austin Curran</p>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="mt-4 w-75">
