@@ -12,10 +12,8 @@
 > A feedback application demonstrating my understanding and knowledge of PHP and MYSQL. 
 
 ### ✨ Demo 
- <p align="center">
-   <a target="_blank" href="#">    
-     <img src="https://i.ibb.co/cX2NHbm/feedback-screenshot.png" width="50%" alt="Imitari"/>
-  </a>
+ <p align="center">  
+     <img src="https://imageupload.io/ib/wYJ1wr83YfFqvDN_1697225213.png" width="50%" alt="Imitari"/>
  </p>
 
 ## 🚀 Usage
