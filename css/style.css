@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* Global */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+
+.logo {
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.toggle {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background: url("img/hamburger.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: center;
+	cursor: pointer;
+}
+
+.toggle.active {
+	background: url("img/close.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: center;
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu ul {
+	position: relative;
+	list-style: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.menu ul li a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+/* Showcase  */
+
+.showcase {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+	color: white;
+	z-index: 2;
+	transition: 0.5s;
+}
+
+.showcase.active {
+	right: 200px;
+}
+
+.showcase header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.showcase video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* content */
+
+.text {
+	position: relative;
+	z-index: 10;
+}
+
+.text h2 {
+	font-size: 4em;
+	font-weight: 800;
+	line-height: 1em;
+}
+
+.text h3 {
+	font-size: 1.2em;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+.page-title {
+	margin-top: 3em;
+}
+
+.text p {
+	font-size: 1em;
+	margin: 20px 0;
+	font-weight: 400;
+}
+
+.text a {
+	display: inline-block;
+	font-size: 1em;
+	background: #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.circular-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #ffffff00;
+	margin-top: 3em;
+}
+
+.circular-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.feedback-section {
+	display: flex;
+	justify-content: center;
+}
+
+.feedback-container {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.social {
+	position: absolute;
+	bottom: 20px;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social li {
+	list-style: none;
+	margin-right: 3px;
+	color: white;
+}
+
+.social li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 1.5em;
+	margin-right: 20px;
+	transition: 0.5s;
+}
+
+.social li a:hover {
+	transform: translateY(-7px);
+}
+
+/* Card */
+
+.card {
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-title h3 {
+	font-size: 1.5em;
+	margin-bottom: 0.25em;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.card-info {
+	position: relative;
+	bottom: 0;
+	color: #aaa;
+}
+
+/* Translucent form  */
+
+.translucent-form input {
+	border: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.translucent-form input[type="submit"] {
+	background-color: #d97b00b1;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+	text-transform: uppercase;
+}
+
+.translucent-form input[type="submit"]:hover {
+	background-color: #00b309b3;
+	letter-spacing: 3px;
+}
+
+#body {
+	width: 100%;
+
+	border: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 5px; /* Rounded corners */
+	color: #fff;
+	margin-bottom: 1em;
+}
+
+.invalid-feedback {
+	color: #fb5800ee;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+	.showcase,
+	.showcase header {
+		padding: 40px;
+	}
+
+	.text h2 {
+		font-size: 3em;
+	}
+
+	.circular-icon {
+		margin-top: 3em;
+	}
+}
