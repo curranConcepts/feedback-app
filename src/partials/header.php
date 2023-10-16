@@ -17,9 +17,9 @@
 <body>
   <div class="menu">
     <ul class="menu-items">
-      <li><a href="/feedback/index.php">Home</a></li>
-      <li><a href="/feedback/feedback.php">Feedback</a></li>
-      <li><a href="/feedback/about.php">About</a></li>
+      <li><a href="/index.php">Home</a></li>
+      <li><a href="/feedback.php">Feedback</a></li>
+      <li><a href="/about.php">About</a></li>
     </ul>
   </div>
 

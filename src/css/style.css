@@ -114,6 +114,10 @@
 
 /* content */
 
+.content {
+	display: flex;
+}
+
 .text {
 	position: relative;
 	z-index: 10;
@@ -160,6 +164,7 @@ a:hover {
 	overflow: hidden;
 	background-color: #ffffff00;
 	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 .circular-icon img {
@@ -243,6 +248,14 @@ a:hover {
 }
 
 /* Translucent form  */
+#name,
+#email {
+	width: 75%;
+}
+
+.translucent-form {
+	width: 100%;
+}
 
 .translucent-form input {
 	border: 1px solid #ccc;
@@ -296,5 +309,10 @@ a:hover {
 
 	.circular-icon {
 		margin-top: 3em;
+		margin-bottom: 1em;
+	}
+
+	.content {
+		flex-direction: column;
 	}
 }
