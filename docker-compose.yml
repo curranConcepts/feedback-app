@@ -1,31 +1,17 @@
-version: "4"
-
+# ignored options for 'xampp'
+# --detach
+version: "3.3"
 services:
-    php:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        ports:
-            - 80:80
+    xampp:
+        container_name: feedbackApp
+        hostname: 906685fc0057
         volumes:
-            - ./src:/var/www/html/
-
-    mysql_db:
-        image: mysql:latest
-        command: --default-authentication-plugin=caching_sha2_password
-        restart: always
-        environment:
-            MYSQL_ROOT_PASSWORD: root
-        volumes:
-            - mysql-data:/var/lib/mysql
-
-    phpmyadmin:
-        image: phpmyadmin:latest
-        restart: always
+            - "/Users/a.curran/my_web_pages:/www"
         ports:
-            - 8080:80
-        environment:
-            - PMA_ARBITRARY=1
-
-volumes:
-    mysql-data:
+            - "41061:22"
+            - "41062:80"
+        restart: no
+        runtime: runc
+        platform: linux/amd64
+        image: tomsik68/xampp
+        command: "sh /startup.s"
