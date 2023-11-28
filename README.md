@@ -14,7 +14,7 @@
 ### ✨ Demo
 
  <p align="center">  
-     <img src="https://imageupload.io/ib/wYJ1wr83YfFqvDN_1697225213.png" width="50%" alt="Imitari"/>
+     <img src="https://i.postimg.cc/3whTshb5/68747470733a2f2f696d61676575706c6f61642e696f2f69622f77594a31777238335966467176444e5f3136393732323532.png" width="50%" alt="Imitari"/>
  </p>
 
 ## 🚀 Usage
